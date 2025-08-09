@@ -1,0 +1,12 @@
+{
+  "name": "molho-molho-turbo-piment",
+  "version": "0.1.0",
+  "description": "Prototype for the Molho Molho: Turbo Piment 2D fighting game built with TypeScript and Phaser 3.",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/main.js"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
+}
