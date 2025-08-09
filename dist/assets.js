@@ -11,11 +11,11 @@ const assets = {
     // from a web server (GitHub Pages, Netlify), the images can be loaded
     // directly. During development under the file:// protocol this may not
     // load due to CORS restrictions, but our hosted demo will work.
-    marketSky: 'assets/stages/market/sky.png',
+    marketSky: 'sky.png',
     /** Idle pose for the Piment Rouge fighter (32×48). */
     // Path to a single frame of the Piment Rouge idle animation (32×48). When
     // hosted, the image will be served as a static asset. Additional frames
     // and characters should follow the same pattern.
-    pimentRougeIdle0: 'assets/sprites/piment-rouge/idle-0.png'
+    pimentRougeIdle0: 'idle-0.png'
 };
 export default assets;
