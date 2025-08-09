@@ -17,7 +17,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 // We import nothing here; all work is done via the browser APIs.
-import assets from './assets';
+import assets from './assets.js';
 /** A utility function to create an image from a data URI. */
 function loadDataImage(dataUri) {
     return new Promise((resolve, reject) => {
