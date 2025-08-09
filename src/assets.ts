@@ -1,0 +1,23 @@
+/**
+ * Base64 encoded assets. Loading images from the local file system via the
+ * file:// protocol can lead to cross‑origin security restrictions. To avoid
+ * this problem we embed our prototype assets directly into the code as
+ * data URIs. In a production build you would store the images in the
+ * assets directory and load them via HTTP once hosted.
+ */
+
+const assets = {
+  /** Background for the market stage (320×180). */
+  // Path to the market sky background (320×180). When the game is served
+  // from a web server (GitHub Pages, Netlify), the images can be loaded
+  // directly. During development under the file:// protocol this may not
+  // load due to CORS restrictions, but our hosted demo will work.
+  marketSky: 'assets/stages/market/sky.png',
+  /** Idle pose for the Piment Rouge fighter (32×48). */
+  // Path to a single frame of the Piment Rouge idle animation (32×48). When
+  // hosted, the image will be served as a static asset. Additional frames
+  // and characters should follow the same pattern.
+  pimentRougeIdle0: 'assets/sprites/piment-rouge/idle-0.png'
+};
+
+export default assets;
